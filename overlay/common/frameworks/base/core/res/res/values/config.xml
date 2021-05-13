@@ -101,6 +101,12 @@
          on the device.
          Example: "com.android.wellbeing"
      -->
+    <integer name="config_navBarInteractionMode">2</integer>
+
+    <string name="quick_settings_tiles_default" translatable="false">
+        wifi,cell,bt,dnd,flashlight,rotation,battery,airplane,cast,screenrecord,hotspot,location
+    </string>
+
     <string name="config_defaultWellbeingPackage">com.google.android.apps.wellbeing</string>
 
     <!-- List of packages that can use the Conversation space for their category messages
